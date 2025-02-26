@@ -1,0 +1,424 @@
+/* --------------------------------------------top styling---------------------------------------------------- */
+
+#nav-bar{
+    background-color: #24135f;
+    color: green;
+    padding: 5px;
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    position: sticky;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    z-index: 1000;
+}
+
+
+body{
+    margin: 0;
+}
+
+#left{
+    display: inline-block;
+}
+
+#header-img{
+    position: relative;
+    margin-left: 240px;
+    top: 5px;
+    width: 9rem;
+    height: 6rem;
+    border: white 1px solid;
+    border-radius: 5px;  
+}
+
+#right{
+    float: right;
+    position: relative;
+    right: 140px;
+    margin-right: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+}
+
+#right a{
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    transition: 0.3s
+}
+
+#right a:hover{
+    color: green;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+#bgprop{
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    height: 490px;
+    top: 5.6rem;
+    border-top: white solid 1px;
+}
+
+/* -------------------------------------------START OF CONTACT FORM -------------------------------------------------------------------*/
+
+
+.leftcontact{
+    display: flex;
+    flex-direction: column;
+}
+
+#con{
+    display: block;
+    margin-top: 500px;
+    color: rgb(25, 61, 107);
+    font-size: 2.5rem;
+    margin-left: 30px;
+    font-weight: 600;
+}
+
+#headoffice{
+    display: inline-block;
+    margin-top: 5px;
+    color: rgb(25, 61, 107);
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-left: 30px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+div{
+    display: inline;
+    margin-top: 5px;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-left: 30px;
+    text-transform: uppercase;
+    line-height: 1.5;
+}
+
+
+.form-container{
+    position: relative;
+    width: 400px;
+    box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.1);
+    top: -250px;
+    right: -900px;
+    background-color: rgb(63, 113, 179);
+    border-radius: 5px;
+    padding-top: 1px;
+    padding-right: 5px;
+    padding-bottom: 1px;
+
+}
+
+select{
+    display: inline;
+    position: relative;
+    width: 98%;
+    outline: none;
+    padding: 15px ;
+    font-size: 15px;
+    border-radius: 6px;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    margin-left: 5px;
+    margin-right: 2px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+input, #mes{
+    display: inline;
+    width: 90%;
+    place-content: center;
+    outline: none;
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 6px;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+    margin-left: 5px;   
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+#send{
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    display: block;
+    margin-top: 10px;
+    margin-inline: auto;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 2rem;
+}
+
+#send:hover{
+    background-color: #001489;
+}
+
+
+/* -------------------------------------------- bottom brand styling ------------------------------------------------*/
+#scrolltop{
+    position: fixed;
+    bottom: 70px;
+    right: 30px;
+    border-radius: 5px;
+    margin-left: 0;
+
+}
+
+#scrolltop a{
+    background-color: rgba(36, 19, 95, 0.8);
+    text-decoration: none;
+    color: #ffff;
+    padding: 12px;
+}
+
+#scrolltop a:hover{
+    background-color: #24135f;
+    color: #ffff;
+    text-decoration: underline;
+}
+
+#bottom-brand{
+    display: flex;
+    position: relative;
+    margin-top: 0;
+    height: 200px;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: #cfcbdb;
+}
+
+#bottom-brand{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-decoration: none;
+    margin-bottom: 0;
+    
+}
+
+h3{
+    font-size: 1.5rem;
+    font-family: 'Trebuchet MS';
+    margin-bottom: 0;
+}
+
+h5{
+    font-family: 'Trebuchet MS';
+
+}
+
+#botcenter1{
+    margin-left: 2px;
+}
+
+#botcenter2{
+    margin-left: 38px;
+}
+
+#botcenter3{
+    margin-left: 47px;
+}
+
+a{
+    padding: 12px;
+    border-radius: 5px;
+    margin-left: 20px;
+
+}
+/* --------------------------------------------END OF BOT BRAND --------------------------------------------------- */
+
+/* ---------------------------------------For Learn More links bottom---------------------------------------------- */
+#botmeter{
+    background-color: rgb(30, 100, 30);
+    color: white;
+    margin-left: 9px;
+    padding-top: 5px;
+    text-decoration: none;
+
+}
+
+#botcndo{
+    background-color: rgb(63, 113, 179);
+    color: white;
+    margin-left: 60px;
+    padding-top: 5px;
+    text-decoration: none;
+}
+
+#botgrnd{
+    background-color: #24135f;
+    color: white;
+    margin-left: 50px;
+    padding-top: 5px;
+    text-decoration: none;
+}
+
+/* ------------------------------------End of Learn More Links bottom*--------------------------------------/
+
+/* ------------------------------------------BOT BRAND---------------------------------------------------- */
+#botour{
+    color: #24135f;
+    margin-bottom: 0;
+}
+
+#botmetro{
+    color: rgb(30, 100, 30);
+    margin-bottom: 0;
+}
+
+#botcondo{
+    color: rgb(63, 113, 179);
+    margin-bottom: 0;
+}
+
+#botgrand{
+    color:#24135f;
+    margin-bottom: 0;
+}
+
+#botmeter:hover{
+    background-color: #24135f;
+    color: white;
+}
+
+#botcndo:hover{
+    background-color: rgb(30, 100, 30);
+    color: white;
+}
+
+#botgrnd:hover{
+    background-color: rgb(63, 113, 179);
+    color: white;
+}
+
+/* -----------------------------------------------END OF BOT STYLE -------------------------------------------------*/ 
+
+/* ------------------------------------------------- FOOTER ------------------------------------------------------ */
+
+#footer-container{
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    background-color: #284195;
+    gap: 140px;
+    padding: 30px;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.5;
+}   
+
+
+#col1{
+    padding-left: 50px;
+}
+
+#office{
+text-transform: uppercase;
+font-size: 1rem;
+color: #fff;
+font-weight: 600;
+margin-bottom: 10px;
+}
+
+
+p, #terms{
+    font-size: 0.875rem;
+    color: #fff;
+    line-height: 1.4;
+    padding: 0;
+    margin-left: 0;
+    text-decoration: none;
+}
+
+#bullet{
+    padding-left: 20px;
+    line-height: 1.5;
+    font-size: 0.875rem;
+}
+/* ----------------------------------------------END OF FOOTER---------------------------------------------- */
+/* ---------------------------------------------copyright styling ------------------------------------------*/
+
+#ccontainer{
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    background-color: #001489;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.5;
+    justify-content: space-between;
+    padding: 21px 0 25px;
+    padding-left: 80px;
+}   
+
+#copy1{
+    margin-top: 20px;
+}
+#copy2{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    margin-top: 40px;
+}
+
+#chome, #cabout, #cproperties, #cnews, #ccontact{
+    color: #fff;
+    text-decoration: none;
+}
+
+#chome:hover, #cabout:hover, #cproperties:hover, #cnews:hover, #ccontact:hover{
+    color: #fff;
+    border: .5px solid white;
+}
+
+#copyr{
+    font-size: 0.75rem;
+    color: #fff;
+    font-weight: 300;
+    text-align: center !important;
+    margin-top: 0;
+}
+
+#copyrightlogo{
+    width: 100px;
+    background-color: #fff;
+
+}
+
+#copy3{
+    display: flex;
+    font-size: 30px;
+    margin-left: 0;
+    justify-content: space-around;
+    margin-top: 30px;
+    text-decoration: none;
+    color: #fff;
+}
+
+#copy3 a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#copy3 a:hover{
+    color: #051409;
+    font-size: larger;
+}
+#facebook{
+    margin-left: 0;
+}
+
+/* ------------------------------------------------END OF Copyright STYLING--------------------------------------------- */

@@ -1,0 +1,709 @@
+/* --------------------------------------------top styling---------------------------------------------------- */
+
+#nav-bar{
+    background-color: #24135f;
+    color: green;
+    padding: 5px;
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    position: sticky;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    z-index: 1000;
+}
+
+
+body{
+    margin: 0;
+}
+
+#left{
+    display: inline-block;
+}
+
+#header-img{
+    position: relative;
+    margin-left: 240px;
+    top: 5px;
+    width: 9rem;
+    height: 6rem;
+    border: white 1px solid;
+    border-radius: 5px;  
+}
+
+#right{
+    float: right;
+    position: relative;
+    right: 140px;
+    margin-right: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1rem;
+}
+
+#right a{
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    transition: 0.3s
+}
+
+#right a:hover{
+    color: green;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+#bgprop{
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    height: 490px;
+    top: 5.6rem;
+    border-top: white solid 1px;
+}
+
+#brands{
+    display: flex;
+    position: relative;
+    margin-top: 500px;
+    height: 200px;
+    flex-wrap: wrap;
+    gap: 20px;  
+}
+
+#brands{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-decoration: none;
+    margin-bottom: 0;
+    width: 100%;
+}
+
+
+h3{
+    font-size: 1.5rem;
+    font-family: 'Trebuchet MS';
+    margin-bottom: 0;
+}
+
+h5{
+    font-family: 'Trebuchet MS';
+}
+
+#center1{
+    margin-left: 2px;
+}
+
+#center2{
+    margin-left: 38px;
+}
+
+#center3{
+    margin-left: 47px;
+}
+
+a{
+    padding: 12px;
+    border-radius: 5px;
+    margin-left: 20px
+}
+
+/* -------------------------------------------For Learn More links-------------------------------------------------- */
+#meter{
+    background-color: rgb(30, 100, 30);
+    color: white;
+    margin-left: 9px;
+    padding-top: 5px;
+    text-decoration: none;
+}
+
+#cndo{
+    background-color: rgb(63, 113, 179);
+    color: white;
+    margin-left: 60px;
+    padding-top: 5px;
+    text-decoration: none;
+}
+
+#grnd{
+    background-color: #24135f;
+    color: white;
+    margin-left: 50px;
+    padding-top: 5px;
+    text-decoration: none;
+}
+
+/* ----------------------------------- End of Learn More Links ---------------------------------------------------- */
+
+#our{
+    color: #24135f;
+    margin-bottom: 0;
+}
+
+#metro{
+    color: rgb(30, 100, 30);
+    margin-bottom: 0;
+}
+
+#condo{
+    color: rgb(63, 113, 179);
+    margin-bottom: 0;
+}
+
+#grand{
+    color:#24135f;
+    margin-bottom: 0;
+}
+
+#meter:hover{
+    background-color: #24135f;
+    color: white;
+}
+
+#cndo:hover{
+    background-color: rgb(30, 100, 30);
+    color: white;
+}
+
+#grnd:hover{
+    background-color: rgb(63, 113, 179);
+    color: white;
+}
+
+/* --------------------------------------------END OF TOP STYLING---------------------------------------------------- */
+
+
+
+/* --------------------------------------START OF PROPERTIES PAGE STYLING -------------------------------------------*/
+
+#metrogate{
+    font-size: 80px;
+    display: block;
+    place-self: center;
+    color: rgb(31, 70, 31);
+    font-family: 'Arial Narrow Bold';
+    font-weight: 600;
+}
+
+#metroprime{
+    display: block;
+    place-self: center;
+    font-weight: 100;
+    color: #717171;
+    margin-top: 0;
+}
+
+.grid-container{
+    display: grid;
+    max-width: 90%;
+    margin: 0 auto;
+    gap: 24px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-item{
+    text-align: justify;
+    color: gray;
+}
+.grid-item img{
+    width: 100%;
+    height: auto;
+    border: 5px solid #ddd;
+}
+
+
+.title{
+    color: #001489;
+    font-size: 1.2rem;
+    margin: 0
+}
+
+.titleloc{
+    color: #001489;
+    font-size: .9rem;
+    font-weight: 500;
+    margin: 0
+}
+
+.subtitle{
+    color: #96979e;
+    font-size: .8rem;
+    margin-top: 5px
+}
+
+/* ----------------------------------------------End of metrogate --------------------------------------------------- */
+
+/* ----------------------------------------------start of nix residence---------------------------------------------- */
+
+#nix{
+    font-size: 50px;
+    display: block;
+    place-self: center;
+    color: rgb(63, 113, 179);
+    font-family: 'Arial Narrow Bold';
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+#nixmid{
+    display: block;
+    place-self: center;
+    font-weight: 100;
+    color: #717171;
+    margin-top: 0;
+}
+
+/* ---------------------------------------------END OF NIX RESIDENCE ---------------------------------------------- */
+
+
+/* ---------------------------------------------START OF G SERIES -------------------------------------------------- */
+#gseries{
+    font-size: 50px;
+    display: block;
+    place-self: center;
+    color: #001489;
+    font-family: 'Arial Narrow Bold';
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+#highser{
+    display: block;
+    place-self: center;
+    font-weight: 100;
+    color: #717171;
+    margin-top: 0;
+}
+
+/* ---------------------------------------------END OF GSERIES---------------------------------------------------- */
+
+
+/*  --------------------------------------------END OF PROPERTY STYLING --------------------------------------------- */
+
+
+/* -------------------------------------------- bottom brand styling ------------------------------------------------*/
+/* back to top */
+
+#scrolltop{
+    position: fixed;
+    bottom: 70px;
+    right: 30px;
+    border-radius: 5px;
+
+}
+
+#scrolltop a{
+    background-color: rgba(36, 19, 95, 0.8);
+    text-decoration: none;
+    color: #ffff;
+    padding: 12px;
+}
+
+#scrolltop a:hover{
+    background-color: #24135f;
+    color: #ffff;
+    text-decoration: underline;
+}
+
+#bottom-brand{
+    display: flex;
+    position: relative;
+    margin-top: 0;
+    height: 200px;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: #cfcbdb;
+}
+
+#bottom-brand{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-decoration: none;
+    margin-bottom: 0;
+    
+}
+
+h3{
+    font-size: 1.5rem;
+    font-family: 'Trebuchet MS';
+    margin-bottom: 0;
+}
+
+h5{
+    font-family: 'Trebuchet MS';
+
+}
+
+#botcenter1{
+    margin-left: 2px;
+}
+
+#botcenter2{
+    margin-left: 38px;
+}
+
+#botcenter3{
+    margin-left: 47px;
+}
+
+a{
+    padding: 12px;
+    border-radius: 5px;
+    margin-left: 20px;
+
+}
+/* --------------------------------------------END OF BOT BRAND --------------------------------------------------- */
+
+/* ---------------------------------------For Learn More links bottom---------------------------------------------- */
+#botmeter{
+    background-color: rgb(30, 100, 30);
+    color: white;
+    margin-left: 9px;
+    padding-top: 5px;
+    text-decoration: none;
+
+}
+
+#botcndo{
+    background-color: rgb(63, 113, 179);
+    color: white;
+    margin-left: 60px;
+    padding-top: 5px;
+    text-decoration: none;
+}
+
+#botgrnd{
+    background-color: #24135f;
+    color: white;
+    margin-left: 50px;
+    padding-top: 5px;
+    text-decoration: none;
+}
+
+/* ------------------------------------End of Learn More Links bottom*--------------------------------------/
+
+/* ------------------------------------------BOT BRAND---------------------------------------------------- */
+#botour{
+    color: #24135f;
+    margin-bottom: 0;
+}
+
+#botmetro{
+    color: rgb(30, 100, 30);
+    margin-bottom: 0;
+}
+
+#botcondo{
+    color: rgb(63, 113, 179);
+    margin-bottom: 0;
+}
+
+#botgrand{
+    color:#24135f;
+    margin-bottom: 0;
+}
+
+#botmeter:hover{
+    background-color: #24135f;
+    color: white;
+}
+
+#botcndo:hover{
+    background-color: rgb(30, 100, 30);
+    color: white;
+}
+
+#botgrnd:hover{
+    background-color: rgb(63, 113, 179);
+    color: white;
+}
+
+/* -----------------------------------------------END OF BOT STYLE -------------------------------------------------*/ 
+
+/* ------------------------------------------------- FOOTER ------------------------------------------------------ */
+
+#footer-container{
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    background-color: #284195;
+    gap: 140px;
+    padding: 30px;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.5;
+}   
+
+
+#col1{
+    padding-left: 50px;
+}
+
+#office{
+text-transform: uppercase;
+font-size: 1rem;
+color: #fff;
+font-weight: 600;
+margin-bottom: 10px;
+}
+
+
+p, #terms{
+    font-size: 0.875rem;
+    color: #fff;
+    line-height: 1.4;
+    padding: 0;
+    margin-left: 0;
+    text-decoration: none;
+}
+
+#bullet{
+    padding-left: 20px;
+    line-height: 1.5;
+    font-size: 0.875rem;
+}
+/* ----------------------------------------------END OF FOOTER---------------------------------------------- */
+/* ---------------------------------------------copyright styling ------------------------------------------*/
+
+#ccontainer{
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    background-color: #001489;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.5;
+    justify-content: space-between;
+    padding: 21px 0 25px;
+    padding-left: 80px;
+}   
+
+#copy1{
+    margin-top: 20px;
+}
+#copy2{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    margin-top: 40px;
+}
+
+#chome, #cabout, #cproperties, #cnews, #ccontact{
+    color: #fff;
+    text-decoration: none;
+}
+
+#chome:hover, #cabout:hover, #cproperties:hover, #cnews:hover, #ccontact:hover{
+    color: #fff;
+    border: .5px solid white;
+}
+
+#copyr{
+    font-size: 0.75rem;
+    color: #fff;
+    font-weight: 300;
+    text-align: center !important;
+    margin-top: 0;
+}
+
+#copyrightlogo{
+    width: 100px;
+    background-color: #fff;
+
+}
+
+#copy3{
+    display: flex;
+    font-size: 30px;
+    margin-left: 0;
+    justify-content: space-around;
+    margin-top: 30px;
+    text-decoration: none;
+    color: #fff;
+}
+
+#copy3 a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#copy3 a:hover{
+    color: #051409;
+    font-size: larger;
+}
+#facebook{
+    margin-left: 0;
+}
+
+/* ------------------------------------------------END OF Copyright STYLING--------------------------------------------- */
+
+
+
+
+
+/* ---------------------------------------------------MEDIA QUERY -----------------------------------------------------*/
+@media screen and (min-width: 1251px) {
+
+    #menue{
+        display: none;
+    }
+
+}
+    
+
+
+/* for tablet screen */
+@media screen and (min-width: 870px) and (max-width: 1250px) {
+    #nav-bar{
+        width: 100%;
+
+    }
+    
+    #right {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        place-content: center;
+        margin-inline: 40% auto;
+        flex-wrap: nowrap;
+
+    }
+    
+
+    #header-img {
+        display: none;
+    }
+
+    #menue {
+        display: none;
+    }
+
+
+}
+
+@media screen and (max-width: 869px) and (min-width: 700px) {
+
+
+    #header-img {
+        display: none;
+
+    }
+
+    #nav-bar{
+        display: inline-block;
+    }
+
+    #menue {
+        display: none;
+    }
+
+    #nav-bar #right {
+        display: flex;
+        justify-content: flex-end;
+        margin-inline: 5px; 
+        font-size: .7rem;
+    }
+
+    #brands{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    #metrog{
+        padding-top: 100px;
+    }
+
+    .grid-container{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #bottom-brand{
+        padding-bottom: 100px;
+    }
+
+
+
+}
+
+/* for mobile */
+
+@media screen and (max-width:699px) {
+    body{
+        width: 100%;
+        height: 100vh;
+    }
+    
+    #nav-bar{
+        width: 100%;
+        display: inline-block;
+
+    }
+
+    #menue{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        font-size: 3rem;
+    
+    }
+
+    #header-img {
+        display: none;
+    }
+
+    #nav-bar #right {
+        display: none
+    }
+
+    
+
+    #brands{ 
+        display: none
+    }
+
+    #prop{
+        display: inline-block;
+        position: relative;
+        top: 500px;
+        place-content: center;
+        padding-bottom: 400px
+    }
+
+    .grid-container{
+        grid-template-columns: 1fr;
+    }
+
+    .grid-item {
+        width: 80%;
+    }
+
+    #center{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    #bottom-brand{
+        padding-bottom: 250px;
+    }
+
+    #address{
+        display: none;
+    }
+
+    #copy3, #copy1{
+        display: none;
+    }
+
+    
+
+    #bottom-brand{
+        padding-bottom: 100px;
+
+    }
+}   
